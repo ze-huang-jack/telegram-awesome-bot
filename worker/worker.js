@@ -1,7 +1,7 @@
 export default {
   async fetch(request) {
     // Target Backend URL (Python Bot Webhook Endpoint)
-    const pythonBotUrl = "https://my-python-bot.onrender.com/webhook";
+    const pythonBotUrl = "https://telegram-awesome-bot.onrender.com//webhook";
 
     // 转发原始请求 (Request Forwarding / Reverse Proxy)
     const newRequest = new Request(pythonBotUrl, {
